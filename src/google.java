@@ -136,10 +136,8 @@ public class google extends JFrame {
 				// Go to https://dev.twitter.com/ to register a new Twitter App and get
 				// credentials
 				Twitter twitter = tf.getInstance();
-				AccessToken accessToken = new AccessToken("180912654-w2oGG1eJ0UclBpBgd9dRVXtmNzMI8eym0SoA0TEA",
-						"UQrIWhsEzx3obCstCUs9eCWjnRzFmdGZozQOcMIW8dm2e");
-				twitter.setOAuthConsumer("qpK0XXox197NpCqBuY8kLoCZg",
-						"b3Q4GGF35O58Mju5L4XmfBrZynlrN7jNT4o2QFKCs1oTExpFzG");
+				AccessToken accessToken = new AccessToken("--twitter access token--");
+				twitter.setOAuthConsumer("--twitter consumer key--");
 				twitter.setOAuthAccessToken(accessToken);
 
 				// Task1: search for all the tweets with the keywords: football world cup
